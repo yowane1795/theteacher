@@ -1,0 +1,20 @@
+{
+    "name": "yohann/lenseignant",
+    "description": "Enseignement facile",
+    "authors": [
+        {
+            "name": "YMAY SOCIETY",
+            "email": "ympissam@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\" : "app/",
+            "Database\\" : "database/",
+            "" : "core/"
+        },
+        "files" : ["routes/routes.php"]
+    },
+    "require": {}
+}
+
